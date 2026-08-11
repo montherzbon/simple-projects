@@ -1,0 +1,17 @@
+number1 = int(input("first number: "))
+number2 = int(input("second nmber: "))
+op = input("opreator")
+
+
+if op == "+":
+    result = number1 + number2
+    print(result)
+if op == "-":
+    result = number1 - number2
+    print(result)
+if op == "/":
+    result = number1 / number2
+    print(result)
+if op == "*":
+    result = number1 * number2
+    print(result)
