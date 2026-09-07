@@ -1,5 +1,5 @@
 import time
-user_in = int(input("time: ")) 
+user_in = int(input(": ")) 
 
 for x in range(user_in):
     print(user_in -x)
